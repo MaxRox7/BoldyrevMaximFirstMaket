@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&family=Roboto&display=swap');
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+html {
+height: 100%;
+
+}
+body {
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'Roboto';
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+   
+}
+
+main {
+    flex: 1 0;
+}
+header {
+    height: 6.25rem;
+    background-color: #FFDE59;
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    height: 6.25rem;
+    background-color: #131A35;
+    display: flex;
+    align-items: center;
+    
+}
+.header_container {
+    margin-bottom: 0.438rem;
+    margin-top: 0.5rem;
+    margin-right: 15rem;
+    margin-left: 15rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_socials {
+    display: flex;
+    gap: 2.563rem;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.enter {
+    font-size: 1.125rem;
+}
+
+.header_input {
+    background-color: #C4C4C4;
+    width: 44rem;
+    height: 2.688rem;
+    margin: 0 8.125rem;
+    border: none;
+    outline: none;
+}
+
+.footer_container {
+    display: flex;
+    margin-left: 16.449rem;
+}
+.footer_socials {
+    
+    display: flex;
+   
+    gap: 3.75rem;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.footer_column {
+    margin-left: 68.328rem;
+    margin-top: 1.438rem;
+    }
+
+.hackathon {
+    color: #FFDE59;
+    display: flex;
+    margin-left: 4rem;
+    font-size: 1.5rem;
+}
+.footer_images {
+    display: flex; 
+    gap: 3.75rem;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+
+
+.first_row {
+    display: flex;
+    flex-direction: column;
+    margin-top: 11.063rem;
+    margin-left: 11.063rem;
+    gap: 3rem 0rem;
+}
+.folder_images {
+    display: flex;
+    gap:9.188rem;
+}
+.second_row {
+    display: flex;
+    flex-direction: column;
+    margin-top: 11.063rem;
+    margin-left: 11.063rem;
+    gap: 3rem 0rem;
+}
+.folder2_images {
+    display: flex;
+    gap:9.188rem;
+}
+.third_row {
+    display: flex;
+    flex-direction: column;
+    margin-top: 11.063rem;
+    margin-left: 11.063rem;
+    gap: 3rem 0rem;
+}
+.folder3_images {
+    display: flex;
+    gap:9.188rem;
+}
+
+.goto {
+    margin-top:10.875rem;
+    margin-left: 86.813rem;
+    margin-bottom: 9.125rem;
+    font-size: 1.5rem;
+}
+
